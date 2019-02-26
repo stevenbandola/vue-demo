@@ -1,0 +1,25 @@
+pre {
+    background-color: #ffff99;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 1px solid #66ff99;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+.comment {
+    color: #999;
+    font-style: italic;
+}
+
+.html {
+    background-color: #c9d5e8;
+}
