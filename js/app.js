@@ -2,8 +2,8 @@ var app = new Vue({
 	el: "#demo-1",
 	data: {
 		profile: {
-			name: "Steven",
-			bio: "Steven likes to eat a lot of cheese, and play guitar",
+			name: "Steven is my cats name",
+			bio: "I don't know enough about human Steven to write a funny bio",
 			currentAvatar: "https://pbs.twimg.com/profile_images/1025228787238096896/7w7ssbXm_400x400.jpg",
 			avatar1: "https://pbs.twimg.com/profile_images/1025228787238096896/7w7ssbXm_400x400.jpg",
 			avatar2: "https://yt3.ggpht.com/a-/AN66SAxDRpJRYWHnycBYMCU4X6UjtUx65QfgzPrV6Q=s900-mo-c-c0xffffffff-rj-k-no"
@@ -68,9 +68,10 @@ Vue.component('task-list', {
 	data(){
 		return {
 			tasks: [
-				'Make bed',
-				'Take a shower',
-				'Walk the cow'
+				'Eat',
+				'Sleep',
+				'Code',
+				'Repeat'
 			]
 		}
 	}
