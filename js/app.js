@@ -3,7 +3,7 @@ var app = new Vue({
 	data: {
 		profile: {
 			name: "Steven is my cats name",
-			bio: "I don't know enough about human Steven to write a funny bio",
+      bio: "Steven doest like Cheese ",
 			currentAvatar: "https://pbs.twimg.com/profile_images/1025228787238096896/7w7ssbXm_400x400.jpg",
 			avatar1: "https://pbs.twimg.com/profile_images/1025228787238096896/7w7ssbXm_400x400.jpg",
 			avatar2: "https://yt3.ggpht.com/a-/AN66SAxDRpJRYWHnycBYMCU4X6UjtUx65QfgzPrV6Q=s900-mo-c-c0xffffffff-rj-k-no"
@@ -24,11 +24,14 @@ var app = new Vue({
 var app2 = new Vue({
 	el: "#demo-2",
 	data: {
+		buttonRed : true,
 		buttonGreen: true
 	},
 	methods: {
 		toggleButton(){
 			this.buttonGreen = !this.buttonGreen;
+			this.buttonRed   = !this.buttonRed;
+
 		}
 	}
 });
